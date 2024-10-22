@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #e2b2e0;
+    color:      #3d173c;
+    
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+label{
+    font-size: 1.34rem;
+    font-weight: 900;
+    
+}
+input{
+    width: 20vw;
+    border-radius: 10% ;
+    font-size: 1.5rem;
+    border: 2px solid #3d173c;
+    box-shadow: inset 5px 4px 7px 2px #ffff ;
+    text-align: center;
+    padding: .5rem;
+    background-color: #f6e1f5;
+    color: #0B4B5E;
+}
+.btn{
+    display: flex;
+
+}
+button{
+    padding:  .5rem;
+    border-radius: 10%;
+    background-color:#3d173c;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+#message{
+    font-size: 1.567rem;
+    text-align: center;
+    font-style: italic;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 800;
+       padding: .25rem;
+       text-wrap: wrap;
+       
+}
+@media(max-width:320px){
+    html, body {
+        height: 100%; 
+    }
+    .container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); 
+    
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+    label{
+        font-size: .88rem;
+        font-weight: 700;
+        text-shadow: 2px 2px #619caf ;
+    }
+    input{
+        width: 20vw;
+        font-size: .1rem;
+        padding: .2rem;
+    }
+    #message{
+        font-size: 1rem;
+         font-weight: 800;
+           padding: .25rem;
+           text-wrap: wrap;
+           
+    }
+}
+@media(max-width:375px){
+    html, body {
+        height: 100%; 
+    }
+    .container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); 
+    
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    label{
+        font-size: .99rem;
+        font-weight: 700;
+        text-shadow: 2px 2px #619caf ;
+    }
+    input{
+        width: 50vw;
+        font-size: .99rem;
+        padding: .3rem;
+    }
+    #message{
+        font-size: 1.4rem;
+         font-weight: 800;
+           padding: .25rem;
+           text-wrap: wrap;
+           
+    }
+}
+@media(max-width:425px){
+    html, body {
+        height: 100%; 
+    }
+    .container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); 
+    
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    label{
+        font-size: .99rem;
+        font-weight: 700;
+        text-shadow: 2px 2px #619caf ;
+    }
+    input{
+        width: 50vw;
+        font-size: 1.7rem;
+        padding: .3rem;
+    }
+    #message{
+        font-size: 1.4rem;
+         font-weight: 800;
+           padding: .25rem;
+           text-wrap: wrap;
+           
+    }
+}
